@@ -670,102 +670,7 @@ aside {
   font-size: 1.5rem;
 }
 
-.blogs .slide {
-  text-align: center;
-  padding: 2rem;
-}
-
-.blogs .slide img {
-  height: 25rem;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 0.5rem;
-}
-
-.blogs .slide .icons {
-  background: #10221b;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  position: relative;
-  top: -2rem;
-  display: inline-block;
-}
-
-.blogs .slide .icons a {
-  font-size: 1.4rem;
-  color: #fff;
-  margin: 0 1rem;
-}
-
-.blogs .slide .icons a:hover {
-  color: #219150;
-}
-
-.blogs .slide .icons a i {
-  padding-right: 0.5rem;
-  color: #219150;
-}
-
-.blogs .slide h3 {
-  font-size: 2rem;
-  color: #10221b;
-}
-
-.blogs .slide p {
-  font-size: 1.4rem;
-  padding: 1rem 0;
-  line-height: 2;
-  color: #10221b;
-}
-
-.newsletter {
-  background: #eee;
-}
-
-.newsletter .content {
-  max-width: 70rem;
-  margin: 1rem auto;
-  text-align: center;
-}
-
-.newsletter .content p {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #10221b;
-}
-
-.newsletter .content form {
-  margin-top: 2rem;
-  background: #fff;
-  border-radius: 5rem;
-  border: 0.2rem solid #10221b;
-  padding: 0.7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.newsletter .content form .email {
-  width: 100%;
-  background: none;
-  text-transform: none;
-  font-size: 1.6rem;
-  color: #10221b;
-  padding: 0 1.3rem;
-}
-
-.newsletter .content form .btn {
-  margin-top: 0;
-  border-radius: 5rem;
-  background: #10221b;
-  color: #fff;
-}
-
-.newsletter .content form .btn:hover {
-  background: none;
-  color: #10221b;
-}
+/* Sponsor section*/
 
 .clients .silde {
   text-align: center;
@@ -775,6 +680,9 @@ aside {
   height: 12rem;
 }
 
+/* Sponsor ends */
+
+/* Footer section*/
 .footer {
   background: -webkit-gradient(
       linear,
