@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDM Conference</title>
+    <script src="https://kit.fontawesome.com/9c815c6fee.js" crossorigin="anonymous"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- <script src="https://kit.fontawesome.com/8a4f037209.js" crossorigin="anonymous"></script> -->
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="logo">
+        <a href="https://udm.ac.mu/"><img src="images/UDMLogo.jpg" alt=""></a> 
+    </div>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="index.html">home</a>
+        <a href="#gallery">gallery</a>
+        <a href="#speakers">speakers</a>
+        <a href="venue.html">venue</a>
+        <a href="#committee">committee</a>
+        <a href="#CallForPapers">call for papers</a>
+        <a href="#sponsors">sponsors</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="sign up.html"><i class="fa-solid fa-user"></i></a>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- search form  -->
+
+    <div class="search-form">
+
+        <div id="close-search" class="fas fa-times"></div>
+
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+<!-- search form ends -->
+
+<!-- sign up section -->
+
+    <section class="form" style="background: url(images/signin.jpeg) no-repeat;">
+        <div class="signin-register">
+            <div class="button-box">
+            <div id="btn"></div>
+                <button type="button" class="toogle-btn" onclick="signin()">
+                    Sign In
+                </button>
+                <button type="button" class="toogle-btn" onclick="register()">
+                    Register
+                </button>
+            </div>
+            <form id="signin" class="input-form">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox-remember"><span>Remember Password</span>
+                <button type="login" class="login-btn">Log In</button>
+            </form>
+
+            <form id="register" class="input-form">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox-remember"><span>I agree to the terms and conditions</span>
+                <button type="login" class="login-btn">Register</button>
+            </form>
+        </div>
+        
+    </section>
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
